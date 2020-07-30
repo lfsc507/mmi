@@ -1,0 +1,6 @@
+List of models:
+T-UR
+T-CR
+Tmi-UR
+Tmi-FB
+mmiS
