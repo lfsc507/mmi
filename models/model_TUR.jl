@@ -1,5 +1,5 @@
 function model(du,u,p,t)
-    ts = [50.0, 100.0, 200.0, 900.0]
+    ts = [50.0, 100.0, 200.0, 300.0]
     freq = 0.2
     amp = p["amp"]
     if t < ts[1]
