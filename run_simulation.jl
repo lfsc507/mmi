@@ -96,3 +96,54 @@ println("Segregation index: ", get_mpdif(d)) # Segregation index
 println("Transition width: ", transi_width(d)) # Transition width
 vis.anim(d, svlist) # Visualize simulation result
 
+
+# Perform random sampling of parameter values
+su = include("SamplingUtils.jl") # file storing the ranges of parameter values
+p_all = Vector{Dict}()
+Random.seed!(2020)
+n = 10 # number of samples 10-10000
+for i in 1:n
+    p_i = Dict()
+    for (k, v) in p
+        if startswith(k, "K") && v > 10
+            p_i[k] = v
+            continue
+        end
+        if haskey(su.p_rng, k)
+            prng = su.p_rng[k]
+            if isa(prng, Dict)
+                m, σ = prng["m"], prng["σ"]
+                p_i[k] = rand(LogNormal(μ_for_mean(m, σ), σ))
+            elseif isa(prng, Array)
+                p_i[k] = prng[rand(1:end)]
+            else
+                p_i[k] = v
+            end
+        else
+            println("Parameter $k not found in Sampling file.")
+        end
+    end
+    push!(p_all, p_i)
+end
+
+num_tps = 5 # output time points
+
+d_all = Array{Float64,5}(undef, size(p_all)[1], size(u0)[1], ncols, nrows, num_tps);
+
+open("perf.txt", "w") do f # output file storing the performance
+println(f, " "^20*get_fmt_pars(p, true))
+
+for i in 1:size(p_all)[1]
+    p_id = lpad(i,5,"0")
+    set_pars(prob, p_all[i])
+    sim = solve(ensemble_prob, lsoda(), reltol=1e-6, abstol=1e-6, saveat=1.0
+                ,trajectories=size(xss)[1]*nrows, dt=0.01);
+    d = reshape(hcat(cat(EnsembleAnalysis.componentwise_vectors_timepoint(sim,LinRange(0,tspan[2], num_tps))..., dims=(2))...), size(u0)[1], ncols, nrows, num_tps);
+    d_all[i,:,:,:,:] = d
+    #save("./sim_data/sol_data_" * p_id * ".jld", "data", d[:,:,:,:], "parvs",p_all[i])
+    tw = transi_width(d)
+    mpdif = get_mpdif(d)
+    println(f, p_id * "\t" * string(tw) * "\t" * @sprintf("%.2f", mpdif) *"\t"* get_fmt_pars(p_all[i]))
+end
+end
+
