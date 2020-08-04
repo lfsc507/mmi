@@ -2,10 +2,13 @@
 
 Requirements:
 
-Python 3.6
+Python 3.6<br>
 Tellurium 2.1.5
+
 Numpy 1.18.1
+
 Matplotlib 3.2.0
+
 Seaborn 0.9.0
 
 
