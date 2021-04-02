@@ -1,8 +1,8 @@
 # mmi
-Code for research article "MicroRNA governs bistable cell differentiation and lineage segregation via a noncanonical feedback"
+Code for research article 
 
-Li C, Liau ES, Lee YH, Huang YZ, Liu Z, Willems A, Garside V, McGlinn E, Chen J, Hong T
-
+"MicroRNA governs bistable cell differentiation and lineage segregation via a noncanonical feedback"<br>
+Li C, Liau ES, Lee YH, Huang YZ, Liu Z, Willems A, Garside V, McGlinn E, Chen J, Hong T<br>
 Mol Syst Biol (2021) 17
 
 
