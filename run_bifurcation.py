@@ -30,8 +30,6 @@ r.l15 = 0.5
 r.K5A = 0.7
 r.n5A = 6.0
 r.K2A = 6.0
-r.a15 = 0.06
-r.a35 = 2.25
 d, b = bf.run_bf(r,auto,dirc="+",par="maxA",lims=[0, 10],dsmax=1E-2, dsmin=1E-5, ds=1E-2)
 fig2 = bf.plot_bfdata58([d], [b])
 
