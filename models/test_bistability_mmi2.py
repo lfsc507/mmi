@@ -73,7 +73,7 @@ for i in range(dp.shape[0]):
     det = (fcs[2]/fcs[0]-fcs[3]/fcs[1]/2)
     for ii, k in enumerate(('b1', 'b2', 'a1', 'a2')):
         r[k] = pars_base[k] * fcs[ii]
-    data, bounds, dummy = bf.run_bf(r, auto, dirc="+", par="mu", lims=[0,15], dsmin=1E-4, dsmax=0.1)
+    data, bounds = bf.run_bf(r, auto, dirc="+", par="mu", lims=[0,15], dsmin=1E-4, dsmax=0.1)
     if len(data) == 0:
         inuerr.append(i)
         continue
