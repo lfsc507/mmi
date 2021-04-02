@@ -1,4 +1,4 @@
-List of models:
+List of spatial models for simulation:
 T-UR
 T-CR
 Tmi-UR
