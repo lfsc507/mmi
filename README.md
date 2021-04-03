@@ -7,7 +7,7 @@ Mol Syst Biol (2021) 17__
 
 
 __Requirements:__<br>
-Code is tested with:<br>
+Code has been tested with:<br>
 Python 3.6<br>
 Tellurium 2.1.5<br>
 Numpy 1.18.1<br>
