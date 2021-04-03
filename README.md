@@ -6,7 +6,7 @@ Li CJ, Liau ES, Lee YH, Huang YZ, Liu Z, Willems A, Garside V, McGlinn E, Chen J
 Mol Syst Biol (2021) 17
 
 
-__Requirements:__
+__Requirements:__<br>
 Code is tested with:<br>
 Python 3.6<br>
 Tellurium 2.1.5<br>
