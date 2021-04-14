@@ -2,7 +2,7 @@
 Code for research article 
 
 <a href="http://10.15252/msb.20209945">__"MicroRNA governs bistable cell differentiation and lineage segregation via a noncanonical feedback"<br>
-Li CJ, Liau ES, Lee YH, Huang YZ, Liu Z, Willems A, Garside V, McGlinn E, Chen JA, Hong T<br>
+Li C-J, Liau ES, Lee Y-H, Huang Y-Z, Liu Z, Willems A, Garside V, McGlinn E, Chen J-A, Hong T<br>
 Mol Syst Biol (2021) 17:e9945__</a>
 
 
