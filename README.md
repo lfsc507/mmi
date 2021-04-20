@@ -9,7 +9,7 @@ Mol Syst Biol (2021) 17:e9945__</a>
 __Requirements:__<br>
 Code has been tested with:<br>
 Python 3.6<br>
-Tellurium 2.1.5<br>
+Tellurium 2.1.5 (rrplugins 2.1.1)<br>
 Numpy 1.18.1<br>
 Matplotlib 3.2.0<br>
 Seaborn 0.9.0<br><br>
