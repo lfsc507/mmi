@@ -1,9 +1,9 @@
 function model(du,u,p,t)
-    ts = [50.0, 100.0, 200.0, 300.0]
+    ts = [50.0, 100.0, 200.0, 900.0]
     freq = 1.0 * 0.2
     amp = p["amp"]
     if t < ts[1]
-        p["maxA"] = 0
+        p["maxA"] = 0.0
     elseif t < ts[3]
         p["maxA"] = 2.3
     else
@@ -11,7 +11,7 @@ function model(du,u,p,t)
         p["gA"] = 0.005
     end
     if t < ts[2]
-        p["maxF"] = 0
+        p["maxF"] = 0.0
     elseif t < ts[3]
         p["maxF"] = 2.1
     else
@@ -19,8 +19,8 @@ function model(du,u,p,t)
         p["gF"] = 0.005
     end
     if t < ts[4]
-        p["muA"] = 0
-        p["muF"] = 0
+        p["muA"] = 0.0
+        p["muF"] = 0.0
     else
         Random.seed!(floor(Int, (t-ts[4])*freq)*p["y"]*floor(Int, p["x"]))
         p["muA"] =   sign(sin((t-ts[4])*pi*freq)) * amp * randn()*u[5]
@@ -59,6 +59,8 @@ u0 = [d_ics1[x] for x in svlist]
 tspan = (0.0,1000.0)
 p=Dict("x"=>50
     ,"amp"=>0.001
+    ,"muA"=>0.0
+    ,"muF"=>0.0
     ,"s2"=>0.16
     ,"kR5"=>1.0
     ,"kr2"=>1.0
@@ -77,11 +79,11 @@ p=Dict("x"=>50
     ,"a38"=>1.5
     ,"a48"=>2.7
     ,"l05"=>1.8
-    ,"l15"=>0.0
+    ,"l15"=>0.5
     ,"l25"=>0.0
     ,"l35"=>0.0
     ,"kP5"=>1.0
-    ,"K"=>1000
+    ,"K"=>1000.0
     ,"maxA"=>2.3
     ,"maxF"=>2.1
     ,"s9"=>0.81
