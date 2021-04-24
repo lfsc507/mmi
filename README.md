@@ -30,4 +30,4 @@ For mmi-S Model and its variants, run `run_bifurcation_RA.py`.
 
 __Phaseplanes:__<br>
 XPPAUT code included in `nullclines.ode`.
-Note: parameter values of &mu for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively.
+Note: parameter values of &#956; for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively.
