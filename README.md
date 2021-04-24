@@ -16,8 +16,8 @@ Seaborn 0.9.0<br><br>
 Julia 1.4.1<br>
 DifferentialEquations 6.14.0<br>
 Distributions 0.23.4<br>
-PyCall 1.91.4<br>
-
+PyCall 1.91.4<br><br>
+XPP-AUT 6.11
 
 __Simulation of mmi-S Model:__<br>
 For steady state distributions and movies, run `run_simulation.jl`.<br>
@@ -29,5 +29,5 @@ For mmi-S Model and its variants, run `run_bifurcation_RA.py`.
 
 
 __Phaseplanes:__<br>
-XPPAUT code included in `nullclines.ode`.
-Note: parameter values of &#956; for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively.
+XPP-AUT code is included in `nullclines.ode`.<br>
+Note: parameter values of &#956; (miRNA production rate constant) for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively (information missing in figure legend).
