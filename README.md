@@ -27,3 +27,7 @@ __Bifurcation diagrams:__<br>
 For mmi-2 and mmi-3 Models with sampled parameters, run `test_bistability_mmi2.py` and `test_bistability_mmi3.py` under `models`. <br>
 For mmi-S Model and its variants, run `run_bifurcation_RA.py`.
 
+
+__Phaseplanes:__<br>
+XPPAUT code included in `nullclines.ode`.
+Note: parameter values of &mu for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively.
