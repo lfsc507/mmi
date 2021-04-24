@@ -30,4 +30,4 @@ For mmi-S Model and its variants, run `run_bifurcation_RA.py`.
 
 __Phaseplanes:__<br>
 XPP-AUT code is included in `nullclines.ode`.<br>
-Note: parameter values of &#956; (miRNA production rate constant) for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively (information missing in figure legend).
+Note: parameter values of &#956; (miRNA production rate constant) for 'Cooperative mRNA degradation', 'Cooperative miRNA degradation' and 'TDMD' are 0.3, 0.4 and 1.2 respectively (information missing from figure legend).
