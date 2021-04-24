@@ -19,8 +19,11 @@ Distributions 0.23.4<br>
 PyCall 1.91.4<br>
 
 
+__Simulation of mmi-S Model:__<br>
+For steady state distributions and movies, run `run_simulation.jl`.<br>
+
 
 __Bifurcation diagrams:__<br>
-For mmi2 and mmi3 Models with sampled parameters, run `test_bistability_mmi2.py` and `test_bistability_mmi3.py` under `models`.
+For mmi-2 and mmi-3 Models with sampled parameters, run `test_bistability_mmi2.py` and `test_bistability_mmi3.py` under `models`. <br>
 For mmi-S Model and its variants, run `run_bifurcation_RA.py`.
 
