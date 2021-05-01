@@ -19,7 +19,7 @@ Distributions 0.23.4<br>
 PyCall 1.91.4<br><br>
 XPP-AUT 6.11
 
-__Simulation of mmi-S Model:__<br>
+__Simulation of mmi-S Model, or other spatial models:__<br>
 For steady state distributions and movies, run `run_simulation.jl`.<br>
 
 
