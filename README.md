@@ -5,7 +5,7 @@ Code for research article
 Li C-J, Liau ES, Lee Y-H, Huang Y-Z, Liu Z, Willems A, Garside V, McGlinn E, Chen J-A, Hong T<br>
 Mol Syst Biol (2021) 17:e9945__</a>
 
-If you find the code helpful for your research, please cite:
+If you find the code helpful for your research, please cite the paper.
 <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1">BibTex</a>
 <a href="https://scholar.googleusercontent.com/scholar.enw?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=3&ct=citation&cd=-1&hl=en&scfhb=1">EndNote</a>
 <a href="https://scholar.googleusercontent.com/scholar.ris?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=2&ct=citation&cd=-1&hl=en&scfhb=1">RefMan</a>
