@@ -6,7 +6,7 @@ Li C-J, Liau ES, Lee Y-H, Huang Y-Z, Liu Z, Willems A, Garside V, McGlinn E, Che
 Mol Syst Biol (2021) 17:e9945__</a>
 
 If you find the code helpful for your research, please cite the paper.
-<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1">BibTex</a>
+<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgVBh267EOOI5vol5d0:AAGBfm0AAAAAYmgj_d0onqU_2D2z-VtAbl7KPdDP3hTm&scisig=AAGBfm0AAAAAYmgj_RLCtsMDvEuBh0gnEcj-ftN0BAbc&scisf=4&ct=citation&cd=-1&hl=en">BibTex</a>
 <a href="https://scholar.googleusercontent.com/scholar.enw?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=3&ct=citation&cd=-1&hl=en&scfhb=1">EndNote</a>
 <a href="https://scholar.googleusercontent.com/scholar.ris?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=2&ct=citation&cd=-1&hl=en&scfhb=1">RefMan</a>
 <a href="https://scholar.googleusercontent.com/scholar.rfw?q=info:c8UoTMnAt4AJ:scholar.google.com/&output=citation&scisdr=CgWWDS1BEPDG6k3vMWw:AAGBfm0AAAAAYLvqKWwBCv_OcL9ymEQQmpjk8RBxKGU_&scisig=AAGBfm0AAAAAYLvqKVo7MQLsGXzPLzxamZxEv9ragJW7&scisf=1&ct=citation&cd=-1&hl=en&scfhb=1">RefWorks</a>
